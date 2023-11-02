@@ -23,7 +23,7 @@ You can return to the main page with a click on the ''Home'' button or at the en
 
 4. Control Panel
 
-   With a click on the ''Create Article'' you will be directed to the control panel of the site. Here you need to log in.
+With a click on the ''Create Article'' you will be directed to the control panel of the site. Here you need to log in.
 
 a) If you use username: dori and password: dori, you will be connected with the superuser of the website.
 
