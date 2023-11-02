@@ -9,9 +9,11 @@ c) Start the Django server by using the following command: dori\Scripts\activate
 d) Once the server is up, you can access the website by going to http://127.0.0.1:8000 in your preferred web browser.
 
 2. About the website
+   
 This website is a personal blog of Todoran Dorinel, a travel enthusiast and a writer. The website contains articles about various destinations around the world, such as Frankfurt, Romania, Brazil, Istanbul, and The Netherlands. The articles are informative and descriptive, highlighting the culture, history, nature, and attractions of each place. The website also has a section for creating new articles and a list of all the articles published so far. The website is written in English and has a simple and elegant design.
 
 3. Usage
+   
 The personal blog allows you to read the articles posted on the site by the owner.
 If you pres on:
 ''Exploring the Heart of Europe: Discovering Frankfurt'' - you will open the first article
