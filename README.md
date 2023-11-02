@@ -20,3 +20,16 @@ If you pres on:
 ''Enchanting Romania: A Tapestry of Natural Beauty and Rich History'' - the next article and so on
 
 You can return to the main page with a click on the ''Home'' button or at the end of every article you will have the button ''Back to Article List''
+
+4. Control Panel
+
+   With a click on the ''Create Article'' you will be directed to the control panel of the site. Here you need to log in.
+
+   a) If you use username: dori and password: dori, you will be connected with the superuser of the website.
+
+With this user you have are the superuser of the website and you can change, add and modify Groups, Users or Posts
+
+   b) Another user can be user: journalist, password: article123456. 
+
+With this user you can just write a new article and post it on the website.
+   
