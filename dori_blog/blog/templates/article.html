@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}{{ post.post_title }} - Dori's Blog{% endblock %}
+{% block content %}
+
+<h1> {{ post.post_title }} </h1>
+<h3>Author: {{ post.post_author.get_full_name }}</h3>
+{{ post.post_headline }}
+<hr>
+{{ post.post_body }}
+
+<br/><br/>
+<a href="{% url 'home' %}" class="btn btn-secondary">Back to Article List</a>
+<br/>
+<hr>
+{% endblock %}
