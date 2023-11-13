@@ -8,8 +8,26 @@
 <hr>
 {{ post.post_body }}
 
-<br/><br/>
-<a href="{% url 'home' %}" class="btn btn-secondary">Back to Article List</a>
+
 <br/>
 <hr>
+<h2>Comment Section:</h2>
+{% if not post.comments.all %}
+    There are no comments yet!
+    <hr>
+{% else %}
+    {% for comment in post.comments.all %}
+        <strong>
+            {{comment.comment_name}} - {{comment.comment_date}}
+        </strong>
+        <br/>
+        {{comment.comment_body}}
+        <hr>
+    {% endfor %}
+{% endif %}
+
+
+<br/>
+<a href="{% url 'home' %}" class="btn btn-secondary">Back to Article List</a>
+
 {% endblock %}
